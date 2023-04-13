@@ -719,10 +719,7 @@ input:checked + .slider:before{
  .menu-pop{
     display: block;
  }
- .container-details{
-  overflow-x: scroll;
- display: block;
- }
+
  .container-detailstxt{
     margin-bottom: 3px;
  }
@@ -743,7 +740,7 @@ input:checked + .slider:before{
 width: 70%;
     background-color: white;
     height: 100%;
-/* display: block; */
+display: block;
 left: 0;
 position: fixed;
 top: 0;
@@ -886,10 +883,10 @@ padding: 0;
     .menu-pop{
         display: block;
      }
-     .container-details{
+     /* .container-details{
  overflow-x: scroll;
  visibility: hidden;
-     }
+     } */
      .container-detailstxt{
         margin-bottom: 3px;
      }

@@ -1,8 +1,8 @@
 function Menuoff() {
-    document.querySelector(".container-details").style.display = "none";
+    document.getElementById('container-id').style.display = "none"
 }
 function Menupop() {
-    document.querySelector(".container-details").style.display= "block";
+    document.getElementById('container-id').style.display = "block"
 }
 
 
